@@ -28,8 +28,8 @@
 }
 
 #info {
-	margin-top: 120px;
-	margin-bottom: 120px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 #info h3 {
@@ -60,7 +60,7 @@
 }
 
 .text-container {
-	margin: 0 auto;
+	float:left;
 	width: 70%;
 }
 
@@ -189,7 +189,10 @@
 }
 
 .countdown {
-	margin-top: 50px;
-	text-align: center;
 	font-size: 30px;
+	    display: inline-block;
+	    float: left;
+	    margin-left: 50px;
+	    position: relative;
+	    margin-top: 21px;
 }
