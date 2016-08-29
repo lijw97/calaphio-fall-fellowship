@@ -78,7 +78,7 @@ body {
 }
 
 h1 {
-	text-align: center; 
+	text-align: center;
 	font-size: 80px;
 	font-family: 'Garamond', cursive;
 	font-weight: 100;
@@ -88,8 +88,8 @@ h1 {
 }
 
 h2 {
-	text-align: center; 
-	font-size: 30px; 
+	text-align: center;
+	font-size: 30px;
 	font-weight: 300;
 	font-family:'Lato', sans-serif;
 	color: #F5F5F5;
@@ -128,7 +128,7 @@ h4 {
 
 .service h2 {
 	font-size: 20px;
-	color: black;  
+	color: black;
 	text-shadow: none;
 	text-align: left;
 	line-height: 9px;
@@ -136,16 +136,16 @@ h4 {
 }
 
 .navigation {
-	text-align: center; 
-	box-shadow: 10px #888888; 
+	text-align: center;
+	box-shadow: 10px #888888;
 	margin-bottom: -10px;
 }
 
 .navigation li {
-	display: inline; 
-	text-align: center; 
+	display: inline;
+	text-align: center;
 	font-size: 15px;
-	padding: 13px; 
+	padding: 13px;
 	text-transform: uppercase;
 	font-family:'Lato', sans-serif;
 }
@@ -173,26 +173,26 @@ h4 {
 }
 
 .main {
-	background-color: #FBFBFB; 
+	background-color: #FBFBFB;
 	margin: 0 auto;
 	margin-top: 30px;
 	margin-bottom: 80px;
 	text-align: center;
-	width: 100%; 
-    height: 550px; 
+	width: 100%;
+    height: 550px;
 }
 
-.fadein { 
-	position: relative; 
-	width: 800px; 
-    height: 500px; 
+.fadein {
+	position: relative;
+	width: 800px;
+    height: 500px;
 	display: block;
 	text-align: center;
 	margin: 0 auto;
 	margin-top: 50px;
 }
 
-.fadein img { 
+.fadein img {
 	display: block;
 	position: absolute;
 	text-align: center;
@@ -212,7 +212,7 @@ h4 {
 .footer p {
 	text-align: left;
 	padding-left: 25px;
-	color: #FFB81C; 
+	color: #FFB81C;
 	line-height: 1px;
 	size: 10px;
 	font-family: 'Lato', sans-serif;
@@ -257,5 +257,40 @@ h4 {
     font-size: 18px;
 	line-height: 32px;
 }
+.text {
+	height: 400px;
+	margin: 0 auto;
+	width: 80%;
+}
+.Prices {
+	font-size: 30px;
+	position: relative;
+	text-align: center;
+	margin-top: 50px;
 
+}
+.earlybird{
+	font-size: 20px;
+	text-align:center;
+	margin-top: 30px;
+	position: relative;
+}
+.normalprice {
+	font-size: 20px;
+	text-align:center;
+	margin-top: 15px;
+	position: relative;
+}
+.lateprice {
+	font-size: 20px;
+	text-align:center;
+	margin-top: 15px;
+	position: relative;
+}
+.note {
+	margin-top: 15px;
+	font-size: 20px;
+	text-align: center;
+	position: relative;
+}
 }
