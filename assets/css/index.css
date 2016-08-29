@@ -30,6 +30,7 @@
 #info {
 	margin-top: 50px;
 	margin-bottom: 50px;
+	height: 500px;
 }
 
 #info h3 {
@@ -195,4 +196,8 @@
 	    margin-left: 50px;
 	    position: relative;
 	    margin-top: 21px;
+}
+.swag {
+	width: 80%;
+	margin: 0 auto;
 }
