@@ -40,6 +40,13 @@ body {
     height: 625px; 
 }
 
+.faq {
+	background-color: #FFF; 
+	padding: 50px 70px;
+	text-align: center;
+	width: 100%;
+}
+
 .info img {
 	height: 500px;
 }

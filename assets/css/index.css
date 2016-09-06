@@ -8,7 +8,7 @@
 }
 
 #splash h1 {
-	text-align: center;
+	text-align: center; 
 	font-size: 90px;
 	font-family: 'Garamond', cursive;
 	font-weight: 100;
@@ -18,8 +18,8 @@
 }
 
 #splash  h2 {
-	text-align: center;
-	font-size: 30px;
+	text-align: center; 
+	font-size: 30px; 
 	font-weight: 300;
 	font-family:'Lato', sans-serif;
 	text-transform: lowercase;
@@ -28,9 +28,8 @@
 }
 
 #info {
-	margin-top: 50px;
-	margin-bottom: 50px;
-	height: 500px;
+	margin-top: 120px;
+	margin-bottom: 120px;
 }
 
 #info h3 {
@@ -61,7 +60,7 @@
 }
 
 .text-container {
-	float:left;
+	margin: 0 auto;
 	width: 70%;
 }
 
@@ -82,20 +81,19 @@
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	width: 80%;
 	margin: 0 auto;
-	margin-top: 50px;
 }
 
 .navigation {
-	text-align: center;
-	box-shadow: 10px #888888;
+	text-align: center; 
+	box-shadow: 10px #888888; 
 	margin-bottom: -10px;
 }
 
 .navigation li {
-	display: inline;
-	text-align: center;
+	display: inline; 
+	text-align: center; 
 	font-size: 15px;
-	padding: 13px;
+	padding: 13px; 
 	text-transform: uppercase;
 	font-family:'Lato', sans-serif;
 }
@@ -126,7 +124,7 @@
 
 #message p {
 	font-size: 16px;
-	text-align: justify;
+	text-align: justify; 
 	padding: 0 10 0 25;
 	margin-top: -15px;
 
@@ -142,7 +140,7 @@
 .footer p {
 	text-align: left;
 	padding-left: 25px;
-	color: #FFB81C;
+	color: #FFB81C; 
 	line-height: 1px;
 	size: 10px;
 	font-family: 'Lato', sans-serif;
@@ -189,15 +187,4 @@
 	line-height: 32px;
 }
 
-.countdown {
-	font-size: 30px;
-	    display: inline-block;
-	    float: left;
-	    margin-left: 50px;
-	    position: relative;
-	    margin-top: 21px;
-}
-.swag {
-	width: 80%;
-	margin: 0 auto;
 }
