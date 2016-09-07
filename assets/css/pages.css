@@ -1,0 +1,296 @@
+
+body {
+	background-color: #FBFBFB;
+}
+
+#cover1 {
+	background: url(../covers/projects.png);
+	background-size: cover;
+	height: 400px;
+	width: auto;
+	margin-top: 60px;
+}
+
+#cover2 {
+	background: url(../covers/10-steps.png);
+	background-size: cover;
+	height: 400px;
+	width: auto;
+	margin-top: 60px;
+}
+
+#cover3 {
+	background: url(../covers/fellowship.png);
+	background-size: cover;
+	height: 400px;
+	width: auto;
+	margin-top: 60px;
+}
+
+#cover4 {
+	background: url(../covers/leadership2.jpg);
+	background-size: cover;
+	height: 400px;
+	width: auto;
+	margin-top: 60px;
+}
+
+#line-separator {
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	width: 80%;
+	margin: 0 auto;
+}
+
+
+/*#rush-info-1 {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 120px;
+	margin-bottom: 40px;
+}
+
+#rush-info-1 p {
+	text-indent: 40px;
+	padding-right: 40px;
+}*/
+
+#rush-info-2 {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 90px;
+	margin-bottom: 60px;
+	text-align: justify;
+	font-weight: 300;
+}
+
+#rush-info-2 h1 {
+	font-size: 30px;
+	color: #00477F;
+	/* text-shadow: 1px 1px black; */
+	font-family:'Lato', sans-serif;
+	margin-top: -110px;
+}
+
+#rush-info-2 p {
+	text-indent: 40px;
+	padding-left: 40px;
+	font-size: 20px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 80px;
+	font-family: 'Garamond', cursive;
+	font-weight: 100;
+	color: #F5F5F5;
+	text-shadow: 2px 2px black;
+	padding-top: 125px;
+}
+
+h2 {
+	text-align: center;
+	font-size: 30px;
+	font-weight: 300;
+	font-family:'Lato', sans-serif;
+	color: #F5F5F5;
+	text-shadow: 2px 2px black;
+}
+
+h3 {
+	text-align: justify;
+	font-size: 24px;
+	line-height: 28px;
+}
+
+h4 {
+	text-align: justify;
+	font-size: 20px;
+	line-height: 28px;
+	/*text-indent: 40px;*/
+	font-weight: 300;
+}
+
+.service strong {
+	font-size: 24px;
+	color: #00477F;
+	text-shadow: none;
+	text-align: left;
+}
+
+.service p {
+	margin-bottom: 10px;
+}
+
+.service a:hover {
+	text-transform: none;
+	color: #FFB81C;
+}
+
+.service h2 {
+	font-size: 20px;
+	color: black;
+	text-shadow: none;
+	text-align: left;
+	line-height: 9px;
+	padding-top: 10px;
+}
+
+.navigation {
+	text-align: center;
+	box-shadow: 10px #888888;
+	margin-bottom: -10px;
+}
+
+.navigation li {
+	display: inline;
+	text-align: center;
+	font-size: 15px;
+	padding: 13px;
+	text-transform: uppercase;
+	font-family:'Lato', sans-serif;
+}
+
+.nav {
+	display: block;
+    list-style-type: disc;
+    -webkit-margin-start: 0px;
+	-webkit-padding-start: 0px;
+}
+
+.text-container {
+	width: 75%;
+	margin: 0 auto;
+	background-color: #FBFBFB;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.fellowship-container {
+	width: 75%;
+	margin: 0 auto;
+	background-color: #FBFBFB;
+	margin-top: 80px;
+}
+
+.main {
+	background-color: #FBFBFB;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 80px;
+	text-align: center;
+	width: 100%;
+    height: 550px;
+}
+
+.fadein {
+	position: relative;
+	width: 800px;
+    height: 500px;
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.fadein img {
+	display: block;
+	position: absolute;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 50px;
+	width: 800px;
+	height: 500px;
+}
+
+.footer {
+	background-color: #00477F;
+	width: 100%;
+	margin: 0 auto;
+	height: 75px;
+}
+
+.footer p {
+	text-align: left;
+	padding-left: 25px;
+	color: #FFB81C;
+	line-height: 1px;
+	size: 10px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100px;
+	text-shadow: 1px 1px black;
+	padding-top: 10px;
+}
+
+#left {
+	float: left;
+}
+
+#right {
+	float: right;
+	padding-right: 65px;
+}
+
+.fa-stack {
+    border-radius: 100%;
+    border: 2px solid #FFB81C;
+    height: 36px;
+    width: 36px;
+    margin: 4px;
+	margin-top: 18px;
+}
+
+.fa-facebook {
+    color: #FFB81C;
+    font-size: 18px;
+	line-height: 32px;
+	padding-right: 1px;
+}
+
+.fa-instagram {
+    color: #FFB81C;
+    font-size: 18px;
+	line-height: 32px;
+}
+
+.fa-youtube {
+    color: #FFB81C;
+    font-size: 18px;
+	line-height: 32px;
+}
+.text {
+	height: 400px;
+	margin: 0 auto;
+	width: 80%;
+}
+.Prices {
+	font-size: 30px;
+	position: relative;
+	text-align: center;
+	margin-top: 50px;
+
+}
+.earlybird{
+	font-size: 20px;
+	text-align:center;
+	margin-top: 30px;
+	position: relative;
+}
+.normalprice {
+	font-size: 20px;
+	text-align:center;
+	margin-top: 15px;
+	position: relative;
+}
+.lateprice {
+	font-size: 20px;
+	text-align:center;
+	margin-top: 15px;
+	position: relative;
+}
+.note {
+	margin-top: 15px;
+	font-size: 20px;
+	text-align: center;
+	position: relative;
+}
+}

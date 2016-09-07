@@ -1,0 +1,262 @@
+
+body {
+	background-color: #00477F; 
+}
+
+#container {
+	width: 90%;
+	height: auto;
+	margin: 0px auto;
+	margin-top: 70px;
+	margin-bottom: 90px;
+	background-color: #FFF;
+}
+
+.nav {
+	display: block;
+    list-style-type: disc;
+    -webkit-margin-start: 0px;
+	-webkit-padding-start: 0px;
+	padding-left: 100px;
+}
+
+.header {
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+.header h1{
+	font-family: 'Garamond', cursive;
+	text-align: center; 
+	font-size: 70px;
+	padding-top:75px;
+	padding-bottom: 10px; 
+	text-transform: uppercase; 
+	color: #FFB81C;
+	-webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+#cover {
+	background-color: #00477F;
+	height: 300px;
+	width: auto;
+	margin-top: 60px;
+}
+
+#cover h1 {
+	text-align: center; 
+	font-size: 65px;
+	font-family: 'Garamond', cursive;
+	font-weight: 100;
+	color: #F5F5F5;
+	text-shadow: 2px 2px black;
+	padding-top: 130px;
+}
+
+#cover h2 {
+	text-align: center; 
+	font-size: 30px; 
+	font-weight: 300;
+	font-family:'Garamond', sans-serif;
+	color: #F5F5F5;
+	text-shadow: 2px 2px black;
+}
+
+#splash {
+	background: url(../../assets/covers/rush.png);
+	background-size: cover;
+	height: 400px;
+	width: auto;
+	margin-top: 60px;
+}
+
+#splash h1 {
+	text-align: center; 
+	font-size: 90px;
+	font-family: 'Garamond', cursive;
+	font-weight: 100;
+	color: #F5F5F5;
+	text-shadow: 2px 2px black;
+	padding-top: 125px;
+}
+
+#splash h2 {
+	text-align: center; 
+	font-size: 40px;
+	font-family: 'Raleway';
+	text-transform: lowercase;
+	font-weight: 100;
+	color: #F5F5F5;
+	text-shadow: 2px 2px black;
+}
+
+#splash  h3 {
+	text-align: center; 
+	font-size: 30px; 
+	font-weight: 300;
+	font-family:'Raleway', sans-serif;
+	color: #F5F5F5;
+	text-shadow: 2px 2px black;
+}
+
+.container h1 {
+	margin-top: 50px;
+	text-transform: uppercase;
+	font-size: 50px;
+	font-family: 'Garamond', cursive;
+	color: #00477F;
+}
+
+
+#line-separator {
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	width: 80%;
+	margin: 0 auto;
+}
+
+.quote {
+	text-align: center;
+}
+
+
+.quote h2{
+	font-family: 'Raleway', sans-serif;
+	font-size: 28px;
+	padding-top: 40px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #FFB81C;
+	-webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.quote h3{
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	color: #FFB81C;
+	-webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.text-container {
+	text-align: center;
+	background-color: #FFF;
+	width: 100%;
+	max-width: 800px;
+	/* height: 475px; */
+	margin: 0 auto;
+	margin-top: 60px;
+}
+
+.text-container h1{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align: center; 
+	font-size: 50px;
+	font-weight: 100;
+	padding-bottom: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #333333;
+	text-transform: uppercase;
+	font-family: 'Garamond', cursive;
+}
+
+
+.text-container h2 {
+	font-size: 35px;
+	font-family: 'Garamond', cursive;
+	color: #00477F;
+}
+
+.text-container ul {
+	margin-top: 35px;
+	margin-bottom: 35px;
+	text-align: left;
+	max-width: 750px;
+	/* padding-left: 250px; */
+	font-size: 20px;
+}
+
+.text-container h3 {
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: left;
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	line-height: 30px;
+	
+}
+
+/*.text-container h2, h3 {
+  width: 50%;
+  height: 60px;
+  margin: 0;
+  display: inline;
+}*/
+
+.footer {
+	background-color: #00477F;
+	width: 100%;
+	margin: 0 auto;
+	height: 75px;
+}
+
+.footer p {
+	text-align: left;
+	padding-left: 25px;
+	color: #FFB81C; 
+	line-height: 1px;
+	size: 10px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100px;
+	text-shadow: 1px 1px black;
+	padding-top: 10px;
+}
+
+#left {
+	float: left;
+}
+
+#right {
+	float: right;
+	padding-right: 65px;
+}
+
+.fa-stack {
+    border-radius: 100%;
+    border: 2px solid #FFB81C;
+    height: 36px;
+    width: 36px;
+    margin: 4px;
+	margin-top: 20px;
+}
+
+.fa-facebook {
+    color: #FFB81C;
+    font-size: 18px;
+	margin-top: -2px;
+}
+
+.fa-instagram {
+    color: #FFB81C;
+    font-size: 18px;
+	margin-top: -2px;
+}
+
+.fa-youtube {
+    color: #FFB81C;
+    font-size: 18px;
+	margin-top: -2px;
+}
+
+}

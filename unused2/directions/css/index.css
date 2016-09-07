@@ -1,0 +1,110 @@
+@charset "utf-8"; 
+
+/* CSS Document */ 
+
+#cover {
+	background: url(../../assets/covers/officers.png);
+	background-size: cover;
+	height: 400px;
+	width: auto;
+	margin-top: 60px;
+}
+
+#cover h1 {
+	text-align: center; 
+	font-size: 80px;
+	font-family: 'Garamond', cursive;
+	font-weight: 100;
+	color: #F5F5F5;
+	text-shadow: 2px 2px black;
+	padding-top: 150px;
+}
+
+.row {
+	margin-top: 10px;
+}
+
+.excomm-info {
+	padding: 50px;
+	padding-bottom: 80px;
+	background-color: #FBFBFB;
+}
+
+.excomm-info img {
+	padding: 10px;
+	padding-bottom: 20px;
+	padding-top: 30px;
+}
+
+.excomm-info h3{
+	font-size: 20px;
+	text-align: center;
+	color: #333333;
+	line-height: 15px;
+	padding-bottom: 5px;
+}
+
+.excomm-info h4 {
+	text-align: center;
+	color: #333333;
+	line-height: 0px;
+	font-size: 15px;
+}
+
+.footer {
+	background-color: #00477F;
+	width: 100%;
+	margin: 0 auto;
+	height: 75px;
+}
+
+.footer p {
+	text-align: left;
+	padding-left: 25px;
+	color: #FFB81C; 
+	line-height: 1px;
+	size: 10px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100px;
+	text-shadow: 1px 1px black;
+	padding-top: 10px;
+}
+
+#left {
+	float: left;
+}
+
+#right {
+	float: right;
+	padding-right: 65px;
+}
+
+.fa-stack {
+    border-radius: 100%;
+    border: 2px solid #FFB81C;
+    height: 36px;
+    width: 36px;
+    margin: 4px;
+	margin-top: 18px;
+}
+
+.fa-facebook {
+    color: #FFB81C;
+    font-size: 18px;
+	line-height: 32px;
+	padding-right: 1px;
+}
+
+.fa-instagram {
+    color: #FFB81C;
+    font-size: 18px;
+	line-height: 32px;
+}
+
+.fa-youtube {
+    color: #FFB81C;
+    font-size: 18px;
+	line-height: 32px;
+}
+
+}

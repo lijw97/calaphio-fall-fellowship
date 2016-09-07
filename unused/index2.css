@@ -1,0 +1,158 @@
+@charset "utf-8"; 
+
+/* CSS Document */ 
+
+
+body {
+	background-color: #00477F;
+}
+
+.jumbotron{
+	background-color: #00477F;
+	margin-top: 35px;
+}
+
+.jumbotron h1 {
+	text-align: center; 
+	font-size: 90px;
+	font-weight: bold;
+	padding-bottom: 0px; 
+	margin-bottom: -20px;
+	color: #FFB81C;
+	text-shadow: 2px 2px black;
+	padding-top: 50px;
+	font-family: garamond;
+	/*font-family: 'Codystar', cursive;*/
+	letter-spacing: px;
+}
+
+.jumbotron h2 {
+	font-family:'Raleway', sans-serif;
+	text-transform: lowercase;
+	color: white;
+	text-align: center; 
+	font-size: 30px; 
+	padding-top: 10px;
+	text-shadow: 2px 2px black;
+
+}
+
+.navigation {
+	text-align: center; 
+	box-shadow: 10px #888888; 
+	margin-bottom: -10px;
+}
+
+.navigation li {
+	display: inline; 
+	text-align: center; 
+	font-size: 15px;
+	padding: 13px; 
+	text-transform: uppercase;
+	font-family:'Raleway', sans-serif;
+	/* font-family: 'Muli', sans-serif; */  
+
+}
+
+.nav {
+	display: block;
+    list-style-type: disc;
+    -webkit-margin-start: 0px;
+	-webkit-padding-start: 0px;
+}
+
+
+/* why does not override */  
+.nav li a:active {
+	color: #FFB81C;
+
+}
+
+
+
+/*
+.navigation li a {
+	color: #FFB81C;
+	text-decoration: none;
+	text-shadow: 1px 1px black;
+
+}
+
+
+.navigation li a:hover { 
+	color: white;
+	text-decoration: none;
+
+}
+*/
+
+
+
+.main {
+	background-color: white; 
+	margin: auto;
+	margin-top: 35px;
+	padding-top: 25px;
+	padding-bottom: 150px;
+	text-align: center;
+	text-shadow: 10px 10px 10px 10px #4e4e56;
+	width: 100%; 
+    height: 100%; 
+}
+
+.fadein { 
+	position: relative; 
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px; 
+    height: 532px; 
+	display: block;
+    /*padding-top: 20px;*/
+   
+}
+
+.fadein img { 
+	display: block;
+	position: relative;
+	width: 800px; 
+    height: 532px; 
+	/*border: white 1px outset; */ 
+	box-shadow: 1px 0px 8px 1px white;  
+}
+
+.footer {
+	padding: 20px;
+	width: 100%;
+	margin: 0 auto;
+	height: 50px;
+}
+
+.footer p {
+	text-align: left;
+	padding: 5px;
+	color: #FFB81C; 
+	line-height: 2px;
+	size: 10px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100px;
+	text-shadow: 1px 1px black;
+}
+
+
+#left {
+	float: left;
+	line-height: 50px;
+	padding-left: 30px;
+	padding-bottom: 20px;
+}
+
+#right {
+	float: right;
+	line-height: 50px;
+	padding-right: 65px;
+	padding-bottom: 20px;
+}
+
+}
+
+
