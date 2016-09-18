@@ -58,6 +58,7 @@ body {
 	font-size: 28px;
 	line-height: 2px;
 	font-weight: 400;
+	background-color: #fff;
 }
 
 .info h2 {
@@ -74,6 +75,14 @@ body {
 
 .small-space {
 	padding: 8px;
+}
+
+.chairs-background {
+	background-color: #fff;
+}
+
+.chairs-background .col-md-3 {
+	background-color: #fff;
 }
 
 .footer {
